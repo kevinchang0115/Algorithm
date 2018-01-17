@@ -23,3 +23,4 @@ make all
 ```
 ./DPT_balance_color ($input_file_name) ($input_file_name).out
 ```
+Test cases can be found here: http://cad-contest.el.cycu.edu.tw/problem_E/ProblemE_test_case.tar
