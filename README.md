@@ -4,14 +4,14 @@ Color Balancing for Double Patterning (ICCAD 2015 Contest)
 ## Introduction
 See details: http://cad-contest.el.cycu.edu.tw/problem_E/default.htm
 
-## Language
+### Language
 C++
 
-## Platform
+### Platform
 OS: Linux
 Compiler: GCC 4.7.x
 
-## Compile
+### Compile
 Run:
 ```
 make all
