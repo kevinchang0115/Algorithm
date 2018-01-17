@@ -3,13 +3,13 @@ ARFLAGS  := cr
 CXX      := g++
 CPPFLAGS := -O2 -I../lib
 
-all : ../bin/DPT_balance_color
+all : ./DPT_balance_color
 	@echo -n ""
 
 clean :
-	rm *.o ../bin/DPT_balance_color
+	rm *.o ./DPT_balance_color
 
-../bin/DPT_balance_color : main.o graph.o myString.o
+./DPT_balance_color : main.o graph.o myString.o
 	$(CXX) $^ -o $@
 
 main.o : main.cpp graph.h
